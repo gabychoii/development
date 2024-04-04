@@ -1,38 +1,196 @@
+
 .App {
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #1d3557;
+  color:antiquewhite;
+  min-height: 100vh;
+}
+
+/* Movie list */
+.movieList{
+  h1{
+    color: antiquewhite;
+  }
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+
+.movieListTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.movieListBody{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.movieItemCard {
+  width: calc(25% - 20px); 
+  margin: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: #1d3557;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative;
+}
+
+
+.genreTag {
+  position: absolute;
+  top: -10px; 
+  right: 4px; 
+  width: auto;
+  height: auto;
+  background-color: #e63946;
+  border: 1px solid #ccc;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+  z-index: 10; 
+  font-family: nyt-karnak, nyt-stymie, Georgia, Times New Roman, serif;
+  font-weight: 700;
+}
+
+.movieImage{
+  width: 100%; 
+  height: 350px; 
+  object-fit: cover; 
+  border-radius: 4px; 
+}
+
+.movieItemCard h3 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.movieItemCard p {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.movieItemCard button {
+  margin: 10px;
+}
+
+/* Watchlist */
+.watchlist{
+
+  h1{
+      color: antiquewhite;
+  }
+  width: 30%;
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.watchlistCard{
+  margin: 10px; 
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: #1d3557;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: auto; 
+  height: 350px; 
+  object-fit: cover; 
+  border-radius: 4px; 
+}
+
+.watchlistContent{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: antiquewhite;
 }
 
-.App-link {
-  color: #61dafb;
+.filterDropdown select {
+  background-color: transparent;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin: 10px;
+  cursor: pointer; 
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filterDropdown select:hover {
+  background-color: #669bbc; 
+  color: #000; /* Change text color for visibility */
+  border-color: #669bbc; 
+}
+
+.sortDropdown select {
+  background-color: transparent;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin: 10px;
+  cursor: pointer; 
+  font-size: 16px;
+}
+
+.sortDropdown select:hover {
+  background-color: #669bbc; 
+  color: #000; 
+  border-color: #669bbc; 
+}
+
+.sortControl {
+  margin: 10px;
+  color: antiquewhite;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 36px;
+
+}
+
+.watchlistLength {
+  color: antiquewhite;
+}
+
+#button {
+  background-color: transparent;
+  color: antiquewhite;
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin: 10px;
+  cursor: pointer; 
+  font-size: 16px;
+}
+
+#button:hover {
+  background-color: #669bbc; 
+  color: #000; 
+  border-color: #669bbc; 
 }

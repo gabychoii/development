@@ -1,0 +1,98 @@
+[
+    {
+        "name" : "Oppenheimer",
+        "release" : 2023,
+        "rating": 93,
+        "image" : "images/oppenheimer.png",
+        "genre" : "Drama",
+        "language" : "English"
+    },
+    {
+        "name" : "Barbie",
+        "release" : 2023,
+        "rating": 88,
+        "image" : "images/barbie.png",
+        "genre" : "Fantasy",
+        "language" : "English"
+    },
+    {
+        "name" : "Twilight",
+        "release" : 2008,
+        "rating": 49,
+        "image" : "images/twilight.png",
+        "genre" : "Fantasy",
+        "language" : "English"
+    },
+    {
+        "name" : "Harry Potter",
+        "release" : 2001,
+        "rating": 81,
+        "image" : "images/harrypotter.png",
+        "genre" : "Fantasy" ,
+        "language" : "English"
+    },
+    {
+        "name" : "Dune: Part Two",
+        "release" : 2024,
+        "rating": 93,
+        "image" : "images/dunepart2.png",
+        "genre" : "Action" ,
+        "language" : "English"
+    },
+    {
+        "name" : "Dune: Part One",
+        "release" : 2021,
+        "rating": 83,
+        "image" : "images/dunepartone.png",
+        "genre" : "Action" ,
+        "language" : "English"
+    },
+    {
+        "name" : "Interstellar",
+        "release" : 2014,
+        "rating": 73,
+        "image" : "images/interstellar.png",
+        "genre" : "Science Fiction" ,
+        "language" : "English"
+    },
+    {
+        "name" : "Get Out",
+        "release" : 2017,
+        "rating": 98,
+        "image" : "images/getout.png",
+        "genre" : "Thriller",
+        "language" : "English" 
+    },
+    {
+        "name" : "Parasite",
+        "release" : 2021,
+        "rating": 99,
+        "image" : "images/parasite.png",
+        "genre" : "Thriller",
+        "language" : "Korean" 
+    },
+    {
+        "name" : "La Haine",
+        "release" : 1996,
+        "rating": 96,
+        "image" : "images/lahaine.png",
+        "genre" : "Crime" ,
+        "language" : "French"
+    },
+    {
+        "name" : "The Dark Knight",
+        "release" : 2008,
+        "rating": 96,
+        "image" : "images/darkknight.png",
+        "genre" : "Action" ,
+        "language" : "English"
+    },
+    {
+        "name" : "Knives Out",
+        "release" : 2019,
+        "rating": 97,
+        "image" : "images/knivesout.png",
+        "genre" : "Crime" ,
+        "language" : "English"
+    }
+]
